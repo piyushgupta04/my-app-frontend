@@ -3,7 +3,9 @@ const inputtdl = document.querySelector('.textarea');
 const buttontdl = document.querySelector('.buttoninput');
 const listtdl = document.querySelector('.todolist');
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://my-app-backend-1.onrender.com';
+
+// Rest of your existing script.js code
 
 // Load todos when page loads
 document.addEventListener('DOMContentLoaded', loadTodoLists);
